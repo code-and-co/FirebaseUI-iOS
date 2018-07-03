@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
     auth.resource_bundle = {
       'FirebaseAuthUI' => ['FirebaseAuthUI/**/*.{xib,png,lproj}']
     }
-    auth.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/FirebaseUI/FirebaseAuthUI' }
+    auth.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/FirebaseUI/Auth' }
   end
 
   s.subspec 'Facebook' do |facebook|
